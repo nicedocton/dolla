@@ -7,10 +7,10 @@ import './App.css';
 function App() {
 	return (
 		<Router>
-			<Switch>
-				<Route path='/' component={Home} exact />
-				<Route path='/signin' component={SinginPage} exact />
-			</Switch>
+			{/* <Switch> */}
+			<Route path='/' component={Home} exact />
+			{/* <Route path='/signin' component={SinginPage} exact /> */}
+			{/* </Switch> */}
 		</Router>
 	);
 }
