@@ -1,16 +1,16 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './pages';
-//import SinginPage from './pages/singin';
+import SinginPage from './pages/singin';
 import './App.css';
 
 function App() {
 	return (
 		<Router basename='/dolla'>
-			{/* <Switch> */}
-			<Route path='/' component={Home} exact />
-			{/* <Route path='/signin' component={SinginPage} exact /> */}
-			{/* </Switch> */}
+			<Switch>
+				<Route path='/' component={Home} exact />
+				<Route path='/signin' component={SinginPage} exact />
+			</Switch>
 		</Router>
 	);
 }
