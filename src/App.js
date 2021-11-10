@@ -6,7 +6,7 @@ import './App.css';
 
 function App() {
 	return (
-		<Router>
+		<Router basename='/dolla'>
 			{/* <Switch> */}
 			<Route path='/' component={Home} exact />
 			{/* <Route path='/signin' component={SinginPage} exact /> */}
