@@ -2,6 +2,7 @@
   "name": "dolla",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://nicedocton.github.io/dolla/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^11.2.7",
@@ -13,8 +14,7 @@
     "react-scripts": "4.0.3",
     "react-scroll": "^1.8.4",
     "styled-components": "^5.3.3",
-    "web-vitals": "^1.1.2",
-    "homepage": "https://nicedocton.github.io/dolla/"
+    "web-vitals": "^1.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
