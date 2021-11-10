@@ -2,7 +2,7 @@ export const homeObjOne = {
 	id: 'about',
 	lightBg: true,
 	lightText: false,
-	lightTextDecs: true,
+	lightTextDecs: false,
 	topLine: 'Premium Bank',
 	headline: 'Unlimited Transaction with zero fees',
 	description:
@@ -13,7 +13,7 @@ export const homeObjOne = {
 	alt: 'Car',
 	dark: true,
 	primary: true,
-	darkText: false,
+	darkText: true,
 };
 
 export const homeObjTwo = {
@@ -36,9 +36,9 @@ export const homeObjTwo = {
 
 export const homeObjThree = {
 	id: 'signup',
-	lightBg: true,
-	lightText: false,
-	lightTextDecs: false,
+	lightBg: false,
+	lightText: true,
+	lightTextDecs: true,
 	topLine: 'Join our Team',
 	headline: 'Creating an account is extremely easy',
 	description:
@@ -47,7 +47,7 @@ export const homeObjThree = {
 	imgStart: false,
 	img: require('../../images/svg-3.svg'),
 	alt: 'Paper',
-	dark: false,
+	dark: true,
 	primary: false,
-	darkText: true,
+	darkText: false,
 };
